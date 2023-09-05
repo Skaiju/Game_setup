@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkkn2hkki4tr2"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_c01tw"]
+size = Vector2(20, 20)
+orientation = 1
+
+[node name="World" type="Node3D"]
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("QuadMesh_c01tw")
