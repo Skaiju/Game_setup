@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cblm0w1vt0drt"]
+
+[ext_resource type="PackedScene" uid="uid://bpq151uatwop7" path="res://assets/Plane/Prefabs/little_plane.blend" id="1_ickmi"]
+
+[node name="Plane" type="RigidBody3D"]
+
+[node name="little_plane" parent="." instance=ExtResource("1_ickmi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.04736, 0)
